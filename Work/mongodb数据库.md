@@ -63,8 +63,11 @@ mongod --dbpath=./data //在27017端口起一个数据库
 - 也可以在命令后面加上参数 `--port 27017` 来指定端口
 
 ### 3.2 启动客户端连接服务器
+启动操作界面：１．用户图形接口GUI   ２．命令行接口CLI
 
-命令窗体中输入 mongo --host=127.0.0.1 或者 mongo 按回车键（mongo去操作数据库）
+对于mongodb我们使用mongo shell这个命令行来操作
+
+命令窗体中输入 mongo --host=127.0.0.1 或者 mongo 按回车键（`mongo`启动mongo shell,去操作数据库）
 
 > 备注：--host后的值表示服务器的ip地址
 
